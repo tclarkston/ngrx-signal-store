@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  align-items: center;
+}
+
+.angular-univ-container {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+      font-size: 30px;
+      margin-top: 10px;
+  }
+
+  img {
+      border-radius: 150px;
+      max-height: 150px;
+  }
+
+  a {
+      font-size: 20px;
+  }
+}

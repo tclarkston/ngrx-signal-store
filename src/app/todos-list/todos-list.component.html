@@ -1,0 +1,13 @@
+<h1>NgRx Signal Store Todo App</h1>
+
+<mat-form-field class="todo-input">
+    <mat-label>Enter a Todo and press Enter</mat-label>
+    <input matInput #input>
+    <mat-icon matSuffix>edit</mat-icon>
+</mat-form-field>
+
+<mat-button-toggle-group #filter>
+  <mat-button-toggle value="all">All</mat-button-toggle>
+  <mat-button-toggle value="pending">Pending</mat-button-toggle>
+  <mat-button-toggle value="completed">Completed</mat-button-toggle>
+</mat-button-toggle-group>
