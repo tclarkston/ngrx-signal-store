@@ -4,6 +4,12 @@
     <a href ="https://angular-university.io"><h1> Angular University</h1></a>
   </div>
 
-  {{ store.todos() | json }}
+  @if (store.loading()){
+    <mat-spinner />
+  }
+  @else {
+    <todos-list />
+  }
+
   <a href="https://commons.wikimedia.org/wiki/File:Angular_full_color_logo.svg">Google</a><br/> Public domain, via Wikimedia Commons
 </div>
